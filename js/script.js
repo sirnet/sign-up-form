@@ -7,7 +7,6 @@ btn.onclick = function(e){
   for (var i = 0; i < inp.length; i++){
     var input = inp[i];
     if (input.checkValidity() == true){
-      alert(input.checkValidity());
       error[i].classList.add('error-active');
       inp[i].classList.add('input-active');
       stopSubmit = true;  
