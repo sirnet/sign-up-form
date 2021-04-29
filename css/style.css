@@ -114,10 +114,6 @@ input:focus {
     border-radius: 5px;
 }
 
-input:invalid:required {
-    background-image: url(../images/icon-error.svg);
-}
-
 .btn {
     background-color: var(--green);
     color: #ffffff;
@@ -165,7 +161,7 @@ input:invalid:required {
 }
 
 .input-active {
-    background-image : url(/images/icon-error.svg);
+    background-image : url(../images/icon-error.svg);
     background-repeat: no-repeat;
     background-position: 95% center;
     border: 2px solid var(--red);
